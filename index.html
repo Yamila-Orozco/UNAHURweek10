@@ -1,0 +1,166 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Menu del Restaurant Vegano</title>
+</head>
+
+<body>
+    <header>
+        <h1>Menu del Restaurante</h1>
+    </header>
+
+    <main>
+        <!--Galeria de imagenes-->
+        <section class="gallery">
+            <h2>Argentinidades Veganas</h2>
+            <div class="containerGalleryImages">
+                <img src="./assets/images/guiso.jpg" alt="locro Vegano">
+                <img src="./assets/images/burger.jpg" alt="Hamburguesa Vegana">
+                <img src="./assets/images/canelones.jpg" alt="Canelones Veganos">
+                <img src="./assets/images/milanesanapo.avif" alt="Milanesa Napolitana de Seitan">
+           </div>
+        </section>
+
+        <!--entradas-->
+        <section class="entradas">
+            <h2>Entradas</h2>
+            <div class="card">
+                <p class="cardDescription text3">Empanadas Surtidas</p>
+                <p class="cardDescription">Empanadas fritas de seitan cortado a cuchillo, con gajo de limón, salsa criolla
+                    y chimichurri. Y empanadas de humita a elección. 3 unidades </p>
+                <p class="cardDescription">$5000</p>
+                <img src="https://thesimplelife.cl/wp-content/uploads/2016/09/Empanadas-de-Espinaca-a-la-Crema-1.jpg" alt="entrada de empanadas">
+            </div>
+            <div class="card">
+                <p class="cardDescription text3">Portobellos asados</p>
+                <p class="cardDescription">(Sin TACC, NO apto celíaco) Papas pay, pure de zanahoria ahumada y coco y criolla
+                    de apio y rabanito. </p>
+                <p class="cardDescription">$8000</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZAioBFWxsIVaZtaRAfrq0UerwsI3UAtXk9g&s" alt="portobellos asados">
+            </div>
+            <div class="card">
+                <p class="cardDescription text3">Picada Vegana Argenta</p>
+                <p class="cardDescription">Deléitate con una selección de sabores auténticos que incluye empanadas de verdura, fiambres veganos, hummus de garbanzos, aceitunas rellenas, y queso vegano acompañado de galletas saladas. Para complementar, disfrutarás de crujientes papas fritas. </p>
+                <p class="cardDescription">$10000</p>
+                <img src="https://cdn.nutritionstudies.org/wp-content/uploads/2019/01/vegan-chili-cheese-fries.jpg" alt="entrada de empanadas">
+            </div>
+        </section>
+        <!--plato ppal-->
+        <section class="platosPrincipales">
+            <h2>Platos Principales</h2>
+            <div class="card">
+                <p class="cardDescription text3">Canelones</p>
+                <p class="cardDescription">Rellenos de espinaca, acelga, zanahoria, cebolla, ajo y
+                    nueces, con salsa de tomate, quesofu y pesto de albahaca</p>
+                <p class="cardDescription">$15000</p>
+                <img src="./assets/images/canelones.jpg" alt="Canelones">
+            </div>
+            <div class="card">
+                <p class="cardDescription text3">Milanesa Napolitana</p>
+                <p class="cardDescription">Milanesa de seitán con quesofu, salsa de tomate,
+                    tomates asados y chimi casero. Sale con papas y ensalada.</p>
+                <p class="cardDescription">$17000</p>
+                <img src="./assets/images/milanesanapo.avif" alt="Milanesa napolitana">
+            </div>
+            <div class="card">
+                <p class="cardDescription text3">Hamburguesa Vegana</p>
+                <p class="cardDescription">Medallón Gordo Vegano 110g, cheddar, lechuga,
+                    tomate, cebolla picada y vigmac.</p>
+                <p class="cardDescription">13000</p>
+                <img src="https://greenandgreat.eu/wp-content/uploads/2023/10/hamburguesa-vegana.jpg" alt="Hamburguesa">
+            </div>
+        </section>
+        <!--postres-->
+        <section class="postres">
+            <h2>Postres</h2>
+            <div class="card">
+                <p class="cardDescription text3">Flan de café</p>
+                <p class="cardDescription">Flan a base de leche de coco y almendras,
+                    con café de especialidad y crema.</p>
+                <p class="cardDescription">$6000</p>
+                <img src="data:image/jpeg;base64,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" alt="Flan de café">
+            </div>
+            </div>
+        <!--bebidas-->
+        <section class="bebidas">
+            <h2 class= "text3">Bebidas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Vinos</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Granbazán Etiqueta Ámbar</td>
+                        <td>$23000</td>
+                    </tr>
+                    <tr>
+                        <td>Marqués de Cáceres Crianza 2020</td>
+                        <td>$20000</td>
+                    </tr>
+                    <tr>
+                        <td>Cune Imperial Reserva 2019</td>
+                        <td>$19000</td>
+                    </tr>
+                    <tr>
+                        <td>Bela 2022. Bodega Bela</td>
+                        <td>$20000</td>
+                    </tr>
+                    <tr>
+                        <td>Argento / Otronia</td>
+                        <td>$10000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bebidas sin alcohol</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gaseosa de 1.5lts</td>
+                        <td>$5000</td>
+                    </tr>
+                    <tr>
+                        <td>Limonada de la Casa 1.5lts</td>
+                        <td>$4500</td>
+                    </tr>
+                    <tr>
+                        <td>Agua</td>
+                        <td>$1500</td>
+                    </tr>
+                </tbody>
+            </table>
+    </main>
+    <footer class="footer">
+        <div class="footerGrid">
+            <div class="footerItem1">
+                <p>Contacto para Delivery</p>
+                <p>Telefono:156666666</p>
+            </div>
+            <div class="footerItem2">
+                <p>Horario</p>
+                <p>Lu-Vi:10-23.30</p>
+                <p>Sá-Do: 11-23.30</p>
+            </div>
+            <div class= "footerItem3"> 
+                <p>Seguinos</p>
+                <p>Instagram</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

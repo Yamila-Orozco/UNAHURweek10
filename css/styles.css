@@ -1,0 +1,137 @@
+/*brand colours
+Olive Green: #4A6E4D btn
+Garnet Red: #A74D4D btn
+Golden Yellow: #E4C65D
+Earthy Brown: #8B5B29 text
+Soft Cream: #F5F2E1. background*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F2E1;
+    color:#4A6E4D;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/*Fonts*/
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #F5F2E1;
+}
+
+h2 {
+    font-family: 'Lora', sans-serif;
+    font-weight: semi-bold;
+    text-align: center;
+    font-size: 32px;
+    color: #4A6E4D;
+}
+
+.text3 {
+    font-family: 'Lora', serif;
+    font-weight: Bold;
+    font-size: 24px;
+    color: #8B5B29;
+}
+
+.text4 {
+    font-family: 'Lora', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #8B5B29;
+}
+
+/*header*/
+header {
+    text-align: center;
+    background-color: #4A6E4D;
+    color:#F5F2E1;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/*galeria*/
+.containerGalleryImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px 15px;
+}
+
+.containerGalleryImages img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    gap: 10px;
+    border-radius: 5%;
+}
+
+/*cards*/
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: space-between;
+}
+
+.cardDescription:nth-child(1) {
+        display: block;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+}
+
+.cardDescription:nth-child(2) {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .cardDescription:nth-child(3) {
+    display: block;
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: auto;
+    align-self:flex-end;
+    order: 0;
+
+
+  }
+
+.entradas .card img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    gap: 10px;
+    border-radius: 80%;
+    
+}
+
+/*footer*/
+.footer {
+    background-color: #4A6E4D;
+    color:#F5F2E1;
+    padding: 20px;
+    margin-top: 25px;
+    z-index: 1;
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+
+.footerItem {
+    text-align: left;
+}
